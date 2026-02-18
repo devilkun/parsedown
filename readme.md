@@ -1,28 +1,28 @@
-<p align="center"><img alt="Parsedown" src="https://i.imgur.com/fKVY6Kz.png" width="240" /></p>
-
 # Parsedown
 
 [![Total Downloads](https://poser.pugx.org/erusev/parsedown/d/total.svg)](https://packagist.org/packages/erusev/parsedown)
 [![Version](https://poser.pugx.org/erusev/parsedown/v/stable.svg)](https://packagist.org/packages/erusev/parsedown)
 [![License](https://poser.pugx.org/erusev/parsedown/license.svg)](https://packagist.org/packages/erusev/parsedown)
 
-Better Markdown Parser in PHP — <a href="https://parsedown.org/demo">Demo</a>.
+Better Markdown Parser in PHP — <a href="https://parsedown.org/demo">demo</a>
 
 ## Features
 
-* One File
-* No Dependencies
-* [Super Fast](http://parsedown.org/speed)
-* Extensible
-* [GitHub flavored](https://github.github.com/gfm)
-* [Tested](http://parsedown.org/tests/) in 5.3 to 7.3
-* [Markdown Extra extension](https://github.com/erusev/parsedown-extra)
+- One file
+- No dependencies
+- [Super fast](http://parsedown.org/speed)
+- Extensible
+- [GitHub flavored](https://github.github.com/gfm)
+- [Tested](http://parsedown.org/tests/) in PHP 7.1+
+- [Markdown Extra extension](https://github.com/erusev/parsedown-extra)
 
 ## Installation
 
 Install the [composer package]:
 
-    composer require erusev/parsedown
+```sh
+composer require erusev/parsedown
+```
 
 Or download the [latest release] and include `Parsedown.php`
 
@@ -91,7 +91,7 @@ It passes most of the CommonMark tests. Most of the tests that don't pass deal w
 
 **How can I help?**
 
-Use it, star it, share it and if you feel generous, [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=528P3NZQMP8N2).
+Use it, star it, share it and if you feel generous, [sponsor me](https://github.com/sponsors/erusev).
 
 **What else should I know?**
 

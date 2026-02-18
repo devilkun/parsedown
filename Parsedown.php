@@ -17,7 +17,7 @@ class Parsedown
 {
     # ~
 
-    const version = '1.8.0-beta-7';
+    const version = '1.8.0';
 
     # ~
 
@@ -1502,8 +1502,6 @@ class Parsedown
                 'extent' => strlen($matches[0]),
             );
         }
-
-        return;
     }
 
     protected function inlineStrikethrough($Excerpt)
@@ -1851,6 +1849,9 @@ class Parsedown
     # Deprecated Methods
     #
 
+    /**
+     * @deprecated use text() instead
+     */
     function parse($text)
     {
         $markup = $this->text($text);
